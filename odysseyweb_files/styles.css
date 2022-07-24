@@ -1,0 +1,196 @@
+body {
+  background-color: #EDEDED;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Prompt ExtraBold', sans-serif;
+  color: #EFEFEF;
+}
+
+h1 {
+  margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+  text-align: center;
+  margin-top: 0;
+  color: #171717;
+}
+
+h2 {
+  margin: 0px;
+  font-family: 'Prompt ExtraBold', sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+h3 {
+  margin: 0px;
+  font-family: 'Prompt ExtraBold', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+h4 {
+  margin: 20px;
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 20px;
+    color: black;
+  }
+
+p {
+  font-family: verdana;
+  font-size: 24px;
+  color: black;
+}
+
+ul {
+  font-family: verdana;
+  list-style: none;
+}
+
+li {
+  font-family: verdana;
+  font-size: 26px;
+  color: black;
+  display: inline-grid;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px;
+
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+}
+
+hr {
+  margin: 1rem 0;
+  color: #444444;
+  border: 20;
+  border-top: 10px solid;
+  opacity: 0.50;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #EDEDED;
+    overflow: hidden;
+    padding: 5px 5px 20px 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  font-family: 'Prompt ExtraBold', sans-serif;
+  color: #DA0037;
+  text-align: center;
+  padding: 24px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav img {
+  height: 50px;
+  width: 50px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  object-fit: contain;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #444444;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #444444;
+  color: white;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Right-aligned section inside the top navigation */
+
+.email{
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  width: 140px;
+  height: 140px;
+}
+
+/* Formatting for the coored section(s) */
+.colored-section{
+  font-family: 'Prompt ExtraBold', sans-serif;
+  background-color: #DA0037;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #EDEDED;
+}
+
+.portfolio{
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  width: 140px;
+  height: 140px;
+}
+
+.btn:hover{
+  color: #171717;
+  background-color: #EDEDED;
+  font-size: 50px;
+}
+
+.btn{
+  color: #171717;
+}
+
+.help{
+  color: #444444;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.portfolio-h2{
+  font-size: 30px;
+  font-color:#DA0037;
+}
+
+#title {
+  background-image: image('odysseyweb_files/network2.jpg');
+  background-image: image('odysseyweb_files/network2.jpg');
+}
+
+#odysseyweb{
+  color: #DA0037;
+  font-size: 100px;
+}
+
+#intro {
+  color: black;
+}
+
+#services{
+  color: black;
+}
+
+#skills{
+  color: #DA0037;
+}
+
+#contact{
+  color: #EDEDED;
+}
